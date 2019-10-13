@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Plan eksperyment\IeC {\'o}w}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {section}{\numberline {2}Wp\IeC {\l }yw hiperparameter\IeC {\'o}w na szybko\IeC {\'s}\IeC {\'c} uczenia perceptronu prostego}{3}% 
+\contentsline {section}{\numberline {3}Badania wp\IeC {\l }ywu warto\IeC {\'s}ci wag pocz\IeC {\k a}tkowych na szybko\IeC {\'s}\IeC {\'c} uczenia}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {section}{\numberline {4}Wp\IeC {\l }yw hiperparameter\IeC {\'o}w na szybko\IeC {\'s}\IeC {\'c} uczenia perceptronu Adaline}{5}% 
+\contentsline {paragraph}{}{5}% 
+\contentsline {section}{\numberline {5}Wnioski ko\IeC {\'n}cowe}{6}% 
+\contentsline {paragraph}{}{6}% 

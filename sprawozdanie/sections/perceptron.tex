@@ -1,0 +1,87 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+    \section{Badania wpływu wartości wag początkowych na szybkość uczenia}
+    \paragraph{}
+    Badanie ma na celu zbadanie wpływu wartości wag początkowych na działanie perceptronu prostego oraz Adaline. Badania przeprowadzone zostały dla unipolarnej funkcji aktywacji oraz zbioru testowego. Wykorzystano współczynnik uczenia a = 0.05.
+    
+    \paragraph{}
+    Zbadano natomiast następujące przedziały:
+    \begin{itemize}
+     \item (-1, 1)
+     \item (-0.8,  0.8)
+     \item (-0.5, 0.5)
+     \item (-0.2, 0.2)
+     \item (0, 0)
+    \end{itemize}
+    
+    \paragraph{}
+    Tak jak zostało to wcześniej wspomniane, prezentowane wyniki są wartościami uśrednionymi, \\hline
+    uzyskanymi w skutek wielokrotnego uruchomienia algorytmu i prezentują się one następująco.
+    \newline 
+    \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+
+    \pgfplotsset{
+        scale only axis,
+    }
+
+    \begin{axis}[
+        xlabel=Wartość bezwględna wag początkowych,
+        ylabel=Liczba epok,
+    ]
+        \addplot[only marks, mark=x]
+        coordinates{
+        (1,           64)
+        (0.8,    43)
+        (0.5,       39)
+        (0.2,       30)
+        (0.05,       27)
+        (0,            26)
+        }; \label{scatter_weights_simple_10}
+
+        % plot 1 legend entry
+        \addlegendimage{/pgfplots/refstyle=plot_one}
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Wyniki badań uzyskane w skutek 10 uruchomień}
+    \end{figure}
+
+    \begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+
+    \pgfplotsset{
+        scale only axis,
+    }
+
+    \begin{axis}[
+        xlabel=Wartość bezwględna wag początkowych,
+        ylabel=Liczba epok,
+    ]
+        \addplot[only marks, mark=x]
+        coordinates{
+        (1,           61)
+        (0.8,    43)
+        (0.5,       30)
+        (0.2,       25)
+        (0.05,       26)
+        (0,            26)
+        }; \label{scatter_weights_simple_50}
+
+        % plot 1 legend entry
+        \addlegendimage{/pgfplots/refstyle=plot_one}
+    \end{axis}
+    \end{tikzpicture}
+    \caption{Wyniki badań uzyskane w skutek 50 uruchomień}
+    \end{figure}
+    
+    \paragraph{}
+    W przeprowadzonych badaniach można zauważyć wzrost liczby epok wymaganych do dobrania odpowiednich wag, wraz ze wzrostem wielkości przedziału losowanych wag. Wynika to z faktu, że w przypadku dużych przedziałów wag mogą one wylosować skrajnie różne wartości. Duża różnica między początkową, a optymalną wartością wagi prowadzi, przy stałym współczynniku uczenia, do wzrostu wymaganej liczby epok, a co za tym idzie czasu wymaganego na ukończenie treningu.
+    
+    \paragraph{}
+    Dalsze badania ujawniły 
+    
+    
+\end{document}

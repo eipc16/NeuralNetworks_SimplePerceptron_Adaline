@@ -1,0 +1,46 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+    \paragraph{}
+    Celem przeprowadzanych badań było omówienie właściwości i zachowania metod uczenia realizowanych przez pojedyńczy neruon oraz zbadanie wpływu hiperparametrów na szybkość uczenia neuronu zarówno dla perceptronu prostego jak i Adaline.
+    
+    \paragraph{}
+    W trakcie badań zbadano wpływ różnych hiperparametrów na proces uczenia perceptronu prostego i Adaline. Podstawową miarą szybkości procesu trenowania jest liczba epok, które były wymagane do ustalenia odpowiednich wag.
+    W przypadku perceptronu prostego jest to liczba epok, po których wagi na połączeniach między wejściem, a wyjściem neuronu przestają być aktualizowane. W przypadku perceptronu Adaline warunkiem kończącym trening jest osiągnięcie błędu średniokwadratowego mniejszego od zadanej wcześniej wartości. W celu przyśpieszenia badań wprowadzono także ograniczenie polegające na tym, że trening jest przerywany po upływie 1000 epok. Wszystkie otrzymane wyniki są wartościami uśrednionymi uzyskanymi z 10 uruchomień algorytmu.
+    
+    \paragraph{}
+    Badania perceptronu prostego zostały przeprowadzone zarówno dla unipolarnej jak i bipolarnej funkcji przejścia. W przypadku perceptronu Adaline, ze względu na jego charakterystykę, wykorzystano tylko bipolarną funkcję przejścia. Uczenie neuronu zostało przeprowadzone na zbiorze treningowym. Walidacja poprawności predykcji została natomiast przeprowadzona z użyciem zbioru walidacyjnego. Postać wykorzystywanych danych prezentuje się następująco:
+    
+    \begin{table}[h]
+    \centering
+    \begin{tabular}{|| c | c | c ||}
+    \hline
+    x1 & x2 & y \\ \hline
+    1  & 1  & 1 \\
+    1  & 0  & 0 \\
+    0  & 1  & 0 \\
+    0  & 0  & 0 \\ \hline
+    \end{tabular}
+    \caption{Zbiór danych dla unipolarnej funkcji aktywacji}
+    \label{dataset_unipolar:1}
+    \end{table}
+    
+        \begin{table}[h]
+    \centering
+    \begin{tabular}{|| c | c | c ||}
+    \hline
+    x1 & x2 & y \\ \hline
+    1  & 1  & 1 \\
+    1  & 0  & -1 \\
+    0  & 1  & -1 \\
+    0  & 0  & -1 \\ \hline
+    \end{tabular}
+    \caption{Zbiór danych dla bipolarnej funkcji aktywacji}
+    \label{dataset_unipolar:1}
+    \end{table}
+    
+    W powyższych tabelach para \textbf{(x1, x2)} oznacza dane wejściowe, natomiast kolumna \textbf{y} zawiera wartości oczekiwane.
+    
+    \paragraph{}
+    Szczegóły implementacyjne wykorzystywanego oprogramowania omówione zostaną w kolejnych rozdziałach.
+\end{document}

@@ -1,0 +1,50 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+    \paragraph{}
+    Wykorzystywane w badań oprogramowanie zostało zaimplementowane w języki \textbf{Python 3.6} z wykorzystaniem biblioteki \textbf{NumPy}, wykorzystaniej do przeprowadzenia operacji na macierzach i wektorach. Dodatkowo wykorzystany został moduł \textbf{csv} w celu zautomatyzowania przeprowadzanych testów. W procesie tworzenia wykorzystane zostało środowisko \textbf{Visual Studio Code}.
+    
+    \paragraph{}
+    Implementacje obu rodzajów perceptronów zostały zawarte w dwóch plikach \emph{simpleperceptron.py} oraz \emph{adaline.py}. Cała mechanika testowania została zaimplementowana natomiast w pliku \emph{testing.py}. W wyniku testów wygenerowany został plik \emph{results.csv} zawierający wyniki przeprowadzonych badań.
+    
+    \paragraph{}
+    Konstruktory klas reprezentujących poszczególne rodzaje perceptronów przedstawiają się następująco.
+    
+        \begin{verbatim}
+    SimplePerceptron(numOfInputs, (minWeight, maxWeight),
+                     activation, activationThreshold)
+    \end{verbatim}
+
+    \begin{verbatim}
+    Adaline(numofinputs, (minweight, maxweight), activationthreshold)
+    \end{verbatim}
+    
+        Wyjaśnienia poszczególnych parametrów przedstawiają się następująco:
+    \begin{itemize}
+     \item numOfInputs - liczba danych treningowych.
+     \item minWeight - minimalna wartość wag początkowych.
+     \item maxWeight - maksymalna wartość wag początkowych.
+     \item activation - funkcja aktywująca (bipolarna lub unipolarna).
+     \item activationThreshold - wartość graniczna funkcji aktywującej.
+    \end{itemize}
+
+    Funkcje rozpoczynające proces treningu natomiast prezentują się następująco:
+    
+    \begin{verbatim}
+    SimplePerceptron.train(trainingData, labels, iterations, learning_rate)
+    \end{verbatim}
+    
+    \begin{verbatim}
+    Adaline.train(trainingData, labels, iterations, errorThreshold, learningRate)
+    \end{verbatim}
+    
+    Wyjaśnienia poszczególnych parametrów przedstawiają się następująco:
+    \begin{itemize}
+     \item trainingData - wektor danych wejściowych.
+     \item labels - wektor danych oczekiwanych.
+     \item iterations - maksymalna, nieprzekraczalna liczba epok.
+     \item errorThreshold - minimalna wartość błędu średniokwadratowego (dla perceptronu Adaline).
+     \item learningRate - współczynnik uczenia.
+    \end{itemize}
+
+\end{document}
