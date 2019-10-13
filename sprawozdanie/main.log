@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  13 OCT 2019 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  13 OCT 2019 23:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -655,36 +655,68 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks42
 \verbatim@line=\toks43
 \verbatim@in@stream=\read3
-)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count303
-)) (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex (/usr/share/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count304
-)))) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.units.code.tex) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+)) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen287
+\captionmargin@=\dimen288
+\captionwidth=\dimen289
+\caption@tempdima=\dimen290
+\caption@indent=\dimen291
+\caption@parindent=\dimen292
+\caption@hangindent=\dimen293
+)
+\c@caption@flags=\count303
+\c@ContinuedFloat=\count304
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count305
+\c@subtable=\count306
+) (/usr/share/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.units.code.tex) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 ) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux
 
 LaTeX Warning: Label `dataset_unipolar:1' multiply defined.
 
+
+LaTeX Warning: Label `fig:lr_sp_epochs' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:lr_sp_epochs' multiply defined.
+
+
+LaTeX Warning: Label `fig:lr_sp_correctness' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:lr_sp_correctness' multiply defined.
+
+
+LaTeX Warning: Label `fig:test' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 53.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 52.
+LaTeX Info: Redefining \selectfont on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -720,7 +752,7 @@ LaTeX Info: Redefining \selectfont on input line 52.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count305
+\c@lstlisting=\count307
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 (/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -801,16 +833,16 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen287
+\scratchcounter=\count308
+\scratchdimen=\dimen294
 \scratchbox=\box71
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\nofMPsegments=\count309
+\nofMParguments=\count310
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen288
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen295
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -852,29 +884,31 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-LaTeX Font Info:    Try loading font information for OML+plm on input line 52.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 53.
 (/usr/share/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 53.
  (/usr/share/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 53.
  (/usr/share/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 52.
+(Font)              <10> on input line 53.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 53.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 52.
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 52.
+(Font)              <5> on input line 53.
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 53.
  (/usr/share/texmf-dist/tex/latex/polski/ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 52.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 53.
  (/usr/share/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
@@ -921,52 +955,112 @@ File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 
  [1
 
-] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/plan.tex) [2] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
+] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/plan.tex) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
-<../results/test_weights_SimplePerceptron_10.png, id=18, 650.43pt x 361.35pt>
-File: ../results/test_weights_SimplePerceptron_10.png Graphic file (type png)
-<use ../results/test_weights_SimplePerceptron_10.png>
-Package pdftex.def Info: ../results/test_weights_SimplePerceptron_10.png  used on input line 24.
-(pdftex.def)             Requested size: 650.4284pt x 361.34912pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+<./sections/results/test_weights_SimplePerceptron_10.png, id=18, 650.43pt x 361.35pt>
+File: ./sections/results/test_weights_SimplePerceptron_10.png Graphic file (type png)
+<use ./sections/results/test_weights_SimplePerceptron_10.png>
+Package pdftex.def Info: ./sections/results/test_weights_SimplePerceptron_10.png  used on input line 28.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+<./sections/results/test_weights_SimplePerceptron_100.png, id=20, 650.43pt x 361.35pt>
+File: ./sections/results/test_weights_SimplePerceptron_100.png Graphic file (type png)
+<use ./sections/results/test_weights_SimplePerceptron_100.png>
+Package pdftex.def Info: ./sections/results/test_weights_SimplePerceptron_100.png  used on input line 34.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+ [3 <./sections/results/test_weights_SimplePerceptron_10.png>] [4 <./sections/results/test_weights_SimplePerceptron_100.png>]
+<./sections/results/test_LR_SimplePerceptron_100_epochs.png, id=30, 650.43pt x 361.35pt>
+File: ./sections/results/test_LR_SimplePerceptron_100_epochs.png Graphic file (type png)
+<use ./sections/results/test_LR_SimplePerceptron_100_epochs.png>
+Package pdftex.def Info: ./sections/results/test_LR_SimplePerceptron_100_epochs.png  used on input line 64.
+(pdftex.def)             Requested size: 230.04079pt x 127.79768pt.
 
-Overfull \hbox (232.17473pt too wide) in paragraph at lines 24--25
+Overfull \hbox (20.91396pt too wide) in paragraph at lines 64--65
  [][] 
  []
 
-[3]
-<../results/test_weights_SimplePerceptron_100.png, id=24, 650.43pt x 361.35pt>
-File: ../results/test_weights_SimplePerceptron_100.png Graphic file (type png)
-<use ../results/test_weights_SimplePerceptron_100.png>
-Package pdftex.def Info: ../results/test_weights_SimplePerceptron_100.png  used on input line 30.
-(pdftex.def)             Requested size: 650.4284pt x 361.34912pt.
+<./sections/results/test_LR_SimplePerceptron_100_correctness.png, id=31, 650.43pt x 361.35pt>
+File: ./sections/results/test_LR_SimplePerceptron_100_correctness.png Graphic file (type png)
+<use ./sections/results/test_LR_SimplePerceptron_100_correctness.png>
+Package pdftex.def Info: ./sections/results/test_LR_SimplePerceptron_100_correctness.png  used on input line 70.
+(pdftex.def)             Requested size: 230.04079pt x 127.79768pt.
 
-Overfull \hbox (232.17473pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.91396pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-[4 <../results/test_weights_SimplePerceptron_10.png>]) [5 <../results/test_weights_SimplePerceptron_100.png>] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/adaline.tex) [6] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex) [7] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
+<./sections/results/test_activation_SimplePerceptron_10.png, id=32, 650.43pt x 361.35pt>
+File: ./sections/results/test_activation_SimplePerceptron_10.png Graphic file (type png)
+<use ./sections/results/test_activation_SimplePerceptron_10.png>
+Package pdftex.def Info: ./sections/results/test_activation_SimplePerceptron_10.png  used on input line 95.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+[5 <./sections/results/test_LR_SimplePerceptron_100_epochs.png> <./sections/results/test_LR_SimplePerceptron_100_correctness.png>]
+<./sections/results/test_activation_SimplePerceptron_100.png, id=39, 650.43pt x 361.35pt>
+File: ./sections/results/test_activation_SimplePerceptron_100.png Graphic file (type png)
+<use ./sections/results/test_activation_SimplePerceptron_100.png>
+Package pdftex.def Info: ./sections/results/test_activation_SimplePerceptron_100.png  used on input line 101.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+) [6 <./sections/results/test_activation_SimplePerceptron_10.png> <./sections/results/test_activation_SimplePerceptron_100.png>] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/adaline.tex
+<./sections/results/test_weights_Adaline_10.png, id=46, 650.43pt x 361.35pt>
+File: ./sections/results/test_weights_Adaline_10.png Graphic file (type png)
+<use ./sections/results/test_weights_Adaline_10.png>
+Package pdftex.def Info: ./sections/results/test_weights_Adaline_10.png  used on input line 28.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+ [7]
+<./sections/results/test_weights_Adaline_100.png, id=50, 650.43pt x 361.35pt>
+File: ./sections/results/test_weights_Adaline_100.png Graphic file (type png)
+<use ./sections/results/test_weights_Adaline_100.png>
+Package pdftex.def Info: ./sections/results/test_weights_Adaline_100.png  used on input line 34.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+ [8 <./sections/results/test_weights_Adaline_10.png> <./sections/results/test_weights_Adaline_100.png>]
+<./sections/results/test_LR_Adaline_100_epochs.png, id=56, 650.43pt x 361.35pt>
+File: ./sections/results/test_LR_Adaline_100_epochs.png Graphic file (type png)
+<use ./sections/results/test_LR_Adaline_100_epochs.png>
+Package pdftex.def Info: ./sections/results/test_LR_Adaline_100_epochs.png  used on input line 64.
+(pdftex.def)             Requested size: 230.04079pt x 127.79768pt.
+
+Overfull \hbox (20.91396pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+<./sections/results/test_LR_Adaline_100_correctness.png, id=57, 650.43pt x 361.35pt>
+File: ./sections/results/test_LR_Adaline_100_correctness.png Graphic file (type png)
+<use ./sections/results/test_LR_Adaline_100_correctness.png>
+Package pdftex.def Info: ./sections/results/test_LR_Adaline_100_correctness.png  used on input line 70.
+(pdftex.def)             Requested size: 230.04079pt x 127.79768pt.
+
+Overfull \hbox (20.91396pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+[9 <./sections/results/test_LR_Adaline_100_epochs.png> <./sections/results/test_LR_Adaline_100_correctness.png>]) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron_vs_adaline.tex
+<./sections/results/test_algorithms_100.png, id=63, 650.43pt x 361.35pt>
+File: ./sections/results/test_algorithms_100.png Graphic file (type png)
+<use ./sections/results/test_algorithms_100.png>
+Package pdftex.def Info: ./sections/results/test_algorithms_100.png  used on input line 10.
+(pdftex.def)             Requested size: 390.261pt x 216.81168pt.
+) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex) [10 <./sections/results/test_algorithms_100.png>] [11] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 37281 strings out of 492616
- 902975 string characters out of 6135177
- 1194509 words of memory out of 5000000
- 40647 multiletter control sequences out of 15000+600000
- 542361 words of font info for 48 fonts, out of 8000000 for 9000
+ 37953 strings out of 492616
+ 909586 string characters out of 6135177
+ 1198263 words of memory out of 5000000
+ 41322 multiletter control sequences out of 15000+600000
+ 542857 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,136p,819b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb>
-Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (8 pages, 88989 bytes).
+ 78i,8n,136p,1328b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr9.pfb>
+Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (12 pages, 274231 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

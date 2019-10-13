@@ -77,6 +77,9 @@ class SimplePerceptron(Neuron):
     def name():
         return 'Prosty perceptron'
 
+    def name(self):
+        return f'Prosty perceptron - {self._activation_type.value}'
+
 class Adaline(Neuron):
     def __init__(self, weight_bounds=[-1, 1], theta=0.5):
         super().__init__(ActivationFunction.BIPOLAR, 
@@ -91,7 +94,7 @@ class Adaline(Neuron):
             y = self._feed(training_data)
             error = self._error(labels, y)
             loss = np.mean(error ** 2)
-
+            
             self._weights += learning_rate * 2 * (training_data.T @ error)
             self._bias += learning_rate * np.sum(error, axis=0)
 
@@ -112,6 +115,9 @@ class Adaline(Neuron):
 
     @staticmethod
     def name():
+        return 'Adaline'
+
+    def name(self):
         return 'Adaline'
 
 

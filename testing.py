@@ -115,15 +115,15 @@ def test_learning_rate(runs=100, neuron=SimplePerceptron):
                 perceptron = neuron([-0.2, 0.2])
                 epoch, _, p = perceptron.train(X, y, learning_rate=test)
 
-                if np.all(p == perceptron.transform_labels(y)):
+                if np.all(p == perceptron.transform_labels(y)): 
                     epochs.append(epoch)
-                    correct_predictions.append(True)
+                    correct_predictions.append(np.all(p == perceptron.transform_labels(y)))
                 else:
                     epochs.append(0)
                     correct_predictions.append(False)
 
                 writer.writerow([i, epoch, test, test, np.all(p == perceptron.transform_labels(y))])
-
+ 
             if epochs:
                 xx.append(str(f'{test}'))
                 yy.append(np.mean(epochs))
@@ -186,27 +186,33 @@ def compare_algorithms(runs=100):
     xx, yy, y_err = [], [], []
 
     algorithms = np.array([
-        (Adaline, 2 * y - 1),
-        (SimplePerceptron, y)
+        (Adaline, 2 * y - 1, None),
+        (SimplePerceptron, 2 * y - 1, ActivationFunction.BIPOLAR),
+        (SimplePerceptron, y, ActivationFunction.UNIPOLAR)
     ])
     
     with open(f'./results/results_algorithms_{runs}.csv', mode='w') as file:
         writer = csv.writer(file)
         writer.writerow(csv_columns)
-        for neuron, labels in algorithms:
+        for neuron, labels, activation in algorithms:
             epochs = []
             for i in range(1, runs + 1):
-                perceptron = neuron([-.2, .2])
-                epoch, _, p = perceptron.train(X, y, learning_rate=0.01)
+                if activation is None:
+                    perceptron = neuron([-.2, .2])
+                    epoch, _, p = perceptron.train(X, y, learning_rate=0.03)
+                else:
+                    perceptron = neuron([-.2, .2], activation=activation)
+                    epoch, _, p = perceptron.train(X, labels, learning_rate=0.03)
+                
 
-                if np.all(p == perceptron.transform_labels(y)):
-                    writer.writerow([neuron.name(), i, epoch])
+                if np.all(p == labels):
+                    writer.writerow([perceptron.name(), i, epoch])
                     epochs.append(epoch)
                 else:
                     print('Wrong prediction')
             
             if epochs:
-                val = neuron.name()
+                val = perceptron.name()
                 xx.append(str(f'{val}'))
                 yy.append(np.mean(epochs))
                 y_err.append([np.mean(epochs) - np.min(epochs), np.max(epochs) - np.mean(epochs)])

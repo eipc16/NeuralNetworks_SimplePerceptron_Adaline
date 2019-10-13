@@ -1,3 +1,4 @@
+\providecommand{\main}{.}
 \documentclass[a4paper,10pt]{article}
 
 \usepackage{titlesec}
@@ -12,15 +13,15 @@
 \usepackage{pgfplotstable}
 \usepackage{subfiles}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{tikz}
 \usepackage{pgfplots}
-\pgfplotsset{width=7.5cm,compat=1.12}
-\usepgfplotslibrary{fillbetween}
 
 \pgfplotsset{compat=newest}
 \usepgfplotslibrary{units}
 
-\graphicspath{ {../results/} }
+\graphicspath{{\main/sections/results/}{results/}}
 
 \pdfinfo{%
   /Title    (Sieci neuronowe Ćwiczenie 1)
@@ -50,6 +51,7 @@
 }
 
 \begin{document}
+    
     \begin{titlepage}
      \newgeometry{centering, margin=1.5cm}
      \vspace*{\fill}
@@ -89,17 +91,18 @@
     \section{Plan eksperymentów}
     \subfile{sections/plan}
     
-    \newpage
     \justify
     \section{Wpływ hiperparameterów na szybkość uczenia perceptronu prostego}
     \subfile{sections/perceptron}
     
-    \newpage
     \justify
-    \section{Wpływ hiperparameterów na szybkość uczenia perceptronu Adaline}
+    \section{Wpływ hiperparameterów na szybkość uczenia Adaline}
     \subfile{sections/adaline}
     
-    \newpage
+    \justify
+    \section{Porównanie perceptronu prostego i Adaline}
+    \subfile{sections/perceptron_vs_adaline}
+    
     \justify
     \section{Wnioski końcowe}
     \subfile{sections/summary}
