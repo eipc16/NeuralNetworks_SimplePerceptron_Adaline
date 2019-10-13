@@ -30,6 +30,12 @@ class Neuron:
     def _activation(self, value):
         pass
 
+    def transform_labels(self, labels):
+        if self._activation_type == ActivationFunction.BIPOLAR:
+            return 2 * labels - 1
+        
+        return labels
+
 class SimplePerceptron(Neuron):
     def __init__(self, weight_bounds=[-1, 1], 
                 activation=ActivationFunction.UNIPOLAR, 
@@ -37,7 +43,7 @@ class SimplePerceptron(Neuron):
         super().__init__(activation, weight_bounds, theta)
 
     def train(self, training_data, labels, 
-              iterations=1000, learning_rate=0.03):
+              iterations=1000, learning_rate=0.05):
         super()._init(training_data)
         for iteration in range(1, iterations + 1):
             y = self.predict(training_data)
@@ -67,6 +73,9 @@ class SimplePerceptron(Neuron):
         prediction = self._feed(inputs)
         return self._activation(prediction)
         
+    @staticmethod
+    def name():
+        return 'Prosty perceptron'
 
 class Adaline(Neuron):
     def __init__(self, weight_bounds=[-1, 1], theta=0.5):
@@ -83,13 +92,13 @@ class Adaline(Neuron):
             error = self._error(labels, y)
             loss = np.mean(error ** 2)
 
-            self._weights += learning_rate * (training_data.T @ error)
+            self._weights += learning_rate * 2 * (training_data.T @ error)
             self._bias += learning_rate * np.sum(error, axis=0)
 
             if loss <= error_threshold:
                 break
 
-        return iteration, loss, y
+        return iteration, loss, self._quantization(y)
 
     def _quantization(self, value):
         return np.where(value > self._theta, 1, -1)
@@ -101,6 +110,9 @@ class Adaline(Neuron):
     def _feed(self, input_vector):
         return super()._feed(input_vector) + self._bias
 
+    @staticmethod
+    def name():
+        return 'Adaline'
 
 
 

@@ -1,10 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1570967701 "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex" "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.pdf" "perceptron" 1570967737
-  "../main.tex" 1570967633 2086 67bcb0aae43ba422d6cd9a136c8077c8 ""
+["pdflatex"] 1570975654 "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex" "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.pdf" "perceptron" 1570975663
+  "../../results/test_weights_SimplePerceptron_10.png" 1570970544 25811 0480a8b86fc49a21a534e6a503fe04af ""
+  "../../results/test_weights_SimplePerceptron_100.png" 1570970545 26990 b60c0ea90bfdea0315fd66b0c85a4d60 ""
+  "../main.tex" 1570974813 2118 1693519c2a266c29b46ea747c705bc3b ""
   "/dev/null" 1570284386 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.aux" 1570967702 4611 901414ba7a3d6a5fe79b598650181e89 ""
-  "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex" 1570967736 2788 5734181b42b819aa65ce5d8eb9d20e30 ""
-  "/usr/share/texmf-dist/fonts/enc/dvips/pl/plmi.enc" 1550406775 2005 f094775651a1386335c158fb632529f1 ""
+  "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.aux" 1570975656 906 35b4c5eb8030a447ffeed522b6026e03 ""
+  "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/perceptron.tex" 1570975662 2384 c57e6bb85c97251662da8bcd18e84b1c ""
   "/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc" 1550406775 1944 1845592c00bbe510359fd6887a83ff72 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1550406775 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -27,7 +28,6 @@
   "/usr/share/texmf-dist/fonts/tfm/public/pl/pltt8.tfm" 1550406775 1280 1b405c85db15d819706215c5a33a841a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1550406775 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb" 1550406775 26733 3fa55bab1df289b642fa8cd9e61fb25f ""
-  "/usr/share/texmf-dist/fonts/type1/public/pl/plmi10.pfb" 1550406775 29517 25a85f8c34479bb523ce1a802f64ac2b ""
   "/usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb" 1550406775 27396 59c827d3c8566d0d9cbf81ac7c0d162a ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1550406775 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1550406775 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -154,6 +154,9 @@
   "/usr/share/texmf-dist/tex/latex/base/ot4enc.def" 1550406775 4742 b9cfbbc7f281df46e8c4deec2dd61ed1 ""
   "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1550406775 8294 6d6e23d5169c0d89d173f6c7e08a005a ""
   "/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu" 1550406775 4973 923be56c54607ca99f7cc085a8c7e52b ""
+  "/usr/share/texmf-dist/tex/latex/caption/caption.sty" 1550406775 68576 86bbc6bd5a409b3c353fccc1a815fa5b ""
+  "/usr/share/texmf-dist/tex/latex/caption/caption3.sty" 1550406775 68510 943558eecf41da4e76fc614fd7f5deff ""
+  "/usr/share/texmf-dist/tex/latex/caption/subcaption.sty" 1550406775 4851 d029892ba4eeaa22f58796af60cf1631 ""
   "/usr/share/texmf-dist/tex/latex/float/float.sty" 1550406775 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty" 1550406342 25776 d28bd6d82f168f8cb2268584b67a2a98 ""
   "/usr/share/texmf-dist/tex/latex/geometry/geometry.sty" 1550406775 41645 0653033a985e06c69a2a9cea9a95e31a ""
@@ -213,7 +216,7 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1556612073 3233842 1a92d1d21a91d82fa70913e968179e54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1556612058 7919196 98b7d0b374f19019f543bdd2c4ae694f ""
-  "perceptron.tex" 1570967736 2788 5734181b42b819aa65ce5d8eb9d20e30 ""
+  "perceptron.tex" 1570975662 2384 c57e6bb85c97251662da8bcd18e84b1c ""
   (generated)
   "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.log"
   "/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/perceptron.aux"

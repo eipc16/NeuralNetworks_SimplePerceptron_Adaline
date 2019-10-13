@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  13 OCT 2019 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  13 OCT 2019 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,23 +668,23 @@ LaTeX Warning: Label `dataset_unipolar:1' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 52.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 50.
+LaTeX Info: Redefining \selectfont on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -852,29 +852,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-LaTeX Font Info:    Try loading font information for OML+plm on input line 50.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 52.
 (/usr/share/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 52.
  (/usr/share/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 50.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 52.
  (/usr/share/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 50.
+(Font)              <10> on input line 52.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 50.
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 50.
+(Font)              <5> on input line 52.
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 52.
  (/usr/share/texmf-dist/tex/latex/polski/ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 50.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 52.
  (/usr/share/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
@@ -928,29 +928,45 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+<../results/test_weights_SimplePerceptron_10.png, id=18, 650.43pt x 361.35pt>
+File: ../results/test_weights_SimplePerceptron_10.png Graphic file (type png)
+<use ../results/test_weights_SimplePerceptron_10.png>
+Package pdftex.def Info: ../results/test_weights_SimplePerceptron_10.png  used on input line 24.
+(pdftex.def)             Requested size: 650.4284pt x 361.34912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--48
-
+Overfull \hbox (232.17473pt too wide) in paragraph at lines 24--25
+ [][] 
  []
 
-[3]) [4] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/adaline.tex) [5] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex) [6] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
+[3]
+<../results/test_weights_SimplePerceptron_100.png, id=24, 650.43pt x 361.35pt>
+File: ../results/test_weights_SimplePerceptron_100.png Graphic file (type png)
+<use ../results/test_weights_SimplePerceptron_100.png>
+Package pdftex.def Info: ../results/test_weights_SimplePerceptron_100.png  used on input line 30.
+(pdftex.def)             Requested size: 650.4284pt x 361.34912pt.
+
+Overfull \hbox (232.17473pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
+
+[4 <../results/test_weights_SimplePerceptron_10.png>]) [5 <../results/test_weights_SimplePerceptron_100.png>] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/adaline.tex) [6] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex) [7] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 37713 strings out of 492616
- 915314 string characters out of 6135177
- 1198492 words of memory out of 5000000
- 41083 multiletter control sequences out of 15000+600000
+ 37281 strings out of 492616
+ 902975 string characters out of 6135177
+ 1194509 words of memory out of 5000000
+ 40647 multiletter control sequences out of 15000+600000
  542361 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,12n,136p,1795b,2046s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb>
-Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (7 pages, 50707 bytes).
+ 78i,8n,136p,819b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb>
+Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (8 pages, 88989 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,9 +8,9 @@
 \contentsline {paragraph}{}{3}% 
 \contentsline {paragraph}{}{3}% 
 \contentsline {paragraph}{}{3}% 
-\contentsline {paragraph}{}{4}% 
-\contentsline {paragraph}{}{4}% 
-\contentsline {section}{\numberline {4}Wp\IeC {\l }yw hiperparameter\IeC {\'o}w na szybko\IeC {\'s}\IeC {\'c} uczenia perceptronu Adaline}{5}% 
 \contentsline {paragraph}{}{5}% 
-\contentsline {section}{\numberline {5}Wnioski ko\IeC {\'n}cowe}{6}% 
+\contentsline {paragraph}{}{5}% 
+\contentsline {section}{\numberline {4}Wp\IeC {\l }yw hiperparameter\IeC {\'o}w na szybko\IeC {\'s}\IeC {\'c} uczenia perceptronu Adaline}{6}% 
 \contentsline {paragraph}{}{6}% 
+\contentsline {section}{\numberline {5}Wnioski ko\IeC {\'n}cowe}{7}% 
+\contentsline {paragraph}{}{7}% 

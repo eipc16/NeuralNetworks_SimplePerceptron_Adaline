@@ -1,0 +1,201 @@
+Algorithm,RUN,Epochs
+Adaline,1,64
+Adaline,2,85
+Adaline,3,87
+Adaline,4,80
+Adaline,5,69
+Adaline,6,65
+Adaline,7,67
+Adaline,8,77
+Adaline,9,68
+Adaline,10,84
+Adaline,11,44
+Adaline,12,68
+Adaline,13,44
+Adaline,14,89
+Adaline,15,68
+Adaline,16,80
+Adaline,17,54
+Adaline,18,68
+Adaline,19,52
+Adaline,20,75
+Adaline,21,46
+Adaline,22,67
+Adaline,23,80
+Adaline,24,64
+Adaline,25,83
+Adaline,26,77
+Adaline,27,81
+Adaline,28,80
+Adaline,29,75
+Adaline,30,59
+Adaline,31,80
+Adaline,32,65
+Adaline,33,79
+Adaline,34,62
+Adaline,35,53
+Adaline,36,69
+Adaline,37,71
+Adaline,38,79
+Adaline,39,61
+Adaline,40,53
+Adaline,41,53
+Adaline,42,65
+Adaline,43,65
+Adaline,44,58
+Adaline,45,59
+Adaline,46,69
+Adaline,47,67
+Adaline,48,77
+Adaline,49,54
+Adaline,50,79
+Adaline,51,72
+Adaline,52,62
+Adaline,53,52
+Adaline,54,72
+Adaline,55,48
+Adaline,56,85
+Adaline,57,49
+Adaline,58,74
+Adaline,59,47
+Adaline,60,73
+Adaline,61,91
+Adaline,62,86
+Adaline,63,57
+Adaline,64,56
+Adaline,65,83
+Adaline,66,52
+Adaline,67,79
+Adaline,68,68
+Adaline,69,63
+Adaline,70,49
+Adaline,71,76
+Adaline,72,88
+Adaline,73,89
+Adaline,74,70
+Adaline,75,79
+Adaline,76,70
+Adaline,77,74
+Adaline,78,69
+Adaline,79,74
+Adaline,80,42
+Adaline,81,75
+Adaline,82,55
+Adaline,83,88
+Adaline,84,80
+Adaline,85,62
+Adaline,86,61
+Adaline,87,69
+Adaline,88,59
+Adaline,89,70
+Adaline,90,82
+Adaline,91,72
+Adaline,92,74
+Adaline,93,67
+Adaline,94,73
+Adaline,95,55
+Adaline,96,85
+Adaline,97,52
+Adaline,98,41
+Adaline,99,87
+Adaline,100,51
+Prosty perceptron,1,16
+Prosty perceptron,2,15
+Prosty perceptron,3,29
+Prosty perceptron,4,23
+Prosty perceptron,5,10
+Prosty perceptron,6,19
+Prosty perceptron,7,40
+Prosty perceptron,8,34
+Prosty perceptron,9,27
+Prosty perceptron,10,30
+Prosty perceptron,11,36
+Prosty perceptron,12,28
+Prosty perceptron,13,21
+Prosty perceptron,14,17
+Prosty perceptron,15,11
+Prosty perceptron,16,26
+Prosty perceptron,17,25
+Prosty perceptron,18,25
+Prosty perceptron,19,34
+Prosty perceptron,20,22
+Prosty perceptron,21,22
+Prosty perceptron,22,31
+Prosty perceptron,23,19
+Prosty perceptron,24,37
+Prosty perceptron,25,15
+Prosty perceptron,26,27
+Prosty perceptron,27,19
+Prosty perceptron,28,18
+Prosty perceptron,29,22
+Prosty perceptron,30,29
+Prosty perceptron,31,14
+Prosty perceptron,32,17
+Prosty perceptron,33,23
+Prosty perceptron,34,24
+Prosty perceptron,35,31
+Prosty perceptron,36,32
+Prosty perceptron,37,25
+Prosty perceptron,38,13
+Prosty perceptron,39,34
+Prosty perceptron,40,24
+Prosty perceptron,41,11
+Prosty perceptron,42,28
+Prosty perceptron,43,24
+Prosty perceptron,44,20
+Prosty perceptron,45,20
+Prosty perceptron,46,21
+Prosty perceptron,47,26
+Prosty perceptron,48,38
+Prosty perceptron,49,37
+Prosty perceptron,50,23
+Prosty perceptron,51,13
+Prosty perceptron,52,21
+Prosty perceptron,53,34
+Prosty perceptron,54,35
+Prosty perceptron,55,28
+Prosty perceptron,56,10
+Prosty perceptron,57,39
+Prosty perceptron,58,33
+Prosty perceptron,59,28
+Prosty perceptron,60,25
+Prosty perceptron,61,26
+Prosty perceptron,62,40
+Prosty perceptron,63,27
+Prosty perceptron,64,31
+Prosty perceptron,65,23
+Prosty perceptron,66,29
+Prosty perceptron,67,32
+Prosty perceptron,68,30
+Prosty perceptron,69,23
+Prosty perceptron,70,19
+Prosty perceptron,71,10
+Prosty perceptron,72,13
+Prosty perceptron,73,31
+Prosty perceptron,74,20
+Prosty perceptron,75,30
+Prosty perceptron,76,16
+Prosty perceptron,77,36
+Prosty perceptron,78,27
+Prosty perceptron,79,22
+Prosty perceptron,80,11
+Prosty perceptron,81,38
+Prosty perceptron,82,18
+Prosty perceptron,83,14
+Prosty perceptron,84,16
+Prosty perceptron,85,33
+Prosty perceptron,86,39
+Prosty perceptron,87,28
+Prosty perceptron,88,39
+Prosty perceptron,89,15
+Prosty perceptron,90,29
+Prosty perceptron,91,26
+Prosty perceptron,92,23
+Prosty perceptron,93,36
+Prosty perceptron,94,22
+Prosty perceptron,95,35
+Prosty perceptron,96,26
+Prosty perceptron,97,40
+Prosty perceptron,98,18
+Prosty perceptron,99,24
+Prosty perceptron,100,25
