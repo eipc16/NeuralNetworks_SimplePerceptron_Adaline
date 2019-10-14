@@ -27,5 +27,6 @@
 \contentsline {paragraph}{}{9}% 
 \contentsline {section}{\numberline {4}Por\IeC {\'o}wnanie perceptronu prostego i Adaline}{10}% 
 \contentsline {paragraph}{}{10}% 
-\contentsline {section}{\numberline {5}Wnioski ko\IeC {\'n}cowe}{11}% 
+\contentsline {section}{\numberline {5}Wnioski ko\IeC {\'n}cowe}{10}% 
+\contentsline {paragraph}{}{10}% 
 \contentsline {paragraph}{}{11}% 

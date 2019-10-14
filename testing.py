@@ -41,13 +41,16 @@ def plot_bar(xx, yy, xlabel, ylabel, title=''):
     ax.set_ylabel(ylabel)
     fig.canvas.set_window_title(title)
 
-def test_weights(runs=10, neuron=SimplePerceptron):
-    name = neuron.name()
+def test_weights(X, y, runs=10, neuron=SimplePerceptron):
+    name = neuron.name_static()
 
     csv_columns = [
         'Weights [LOW]', 'Weights [HIGH]', 'RUN',
         'Epochs'
     ]
+
+    X, y = X, np.reshape(y, (4, 1))
+    xx, yy, y_err = [], [], []
 
     weights_tests = np.array([
         [-1, 1],
@@ -58,9 +61,6 @@ def test_weights(runs=10, neuron=SimplePerceptron):
         [-0.05, 0.05],
         [-0.0, 0.0]
     ])
-
-    X, y = training_X, np.reshape(labels_and, (4, 1))
-    xx, yy, y_err = [], [], []
     
     with open(f'./results/results_weights_{name}_{runs}.csv', mode='w') as file:
         writer = csv.writer(file)
@@ -69,14 +69,15 @@ def test_weights(runs=10, neuron=SimplePerceptron):
             epochs = []
             for i in range(1, runs + 1):
                 perceptron = neuron(test)
-                epoch, _, p = perceptron.train(X, y)
+                epoch, l, p = perceptron.train(X, y)
 
-                if np.all(p == perceptron.transform_labels(y)):
+
+                if np.all(p == y):
                     writer.writerow([test[0], test[1], i, epoch])
                     epochs.append(epoch)
                 else:
                     print('Wrong prediction')
-            
+
             if epochs:
                 xx.append(str(f'({test[0]}, {test[1]})'))
                 yy.append(np.mean(epochs))
@@ -86,8 +87,8 @@ def test_weights(runs=10, neuron=SimplePerceptron):
         plot(xx, yy, y_err, 'Zakres wag', 'Liczba epok', 'Wpływ początkowego zakresu wag na szybkość uczenia się')
         plt.savefig(f'./results/test_weights_{name}_{runs}.png')
 
-def test_learning_rate(runs=100, neuron=SimplePerceptron):
-    name = neuron.name()
+def test_learning_rate(X, y, runs=100, neuron=SimplePerceptron):
+    name = neuron.name_static()
 
     csv_columns = [
         'RUN', 'Learning Rate', 'Predicted?'
@@ -103,7 +104,7 @@ def test_learning_rate(runs=100, neuron=SimplePerceptron):
         1.0
     ])
 
-    X, y = training_X, np.reshape(labels_and, (4, 1))
+    X, y = X, np.reshape(y, (4, 1))
     xx, yy, yy2, y_err = [], [], [], []
     
     with open(f'./results/results_LR_{name}_{runs}.csv', mode='w') as file:
@@ -113,17 +114,19 @@ def test_learning_rate(runs=100, neuron=SimplePerceptron):
             epochs, correct_predictions = [], []
             for i in range(1, runs + 1):
                 perceptron = neuron([-0.2, 0.2])
-                epoch, _, p = perceptron.train(X, y, learning_rate=test)
+                epoch, l, p = perceptron.train(X, y, learning_rate=test)
 
-                if np.all(p == perceptron.transform_labels(y)): 
+                if np.all(p == y): 
                     epochs.append(epoch)
-                    correct_predictions.append(np.all(p == perceptron.transform_labels(y)))
+                    correct_predictions.append(np.all(p == y))
                 else:
                     epochs.append(0)
                     correct_predictions.append(False)
 
                 writer.writerow([i, epoch, test, test, np.all(p == perceptron.transform_labels(y))])
- 
+
+            print(f'Test: {test}\nPred: {p}\nLoss: {l}')
+
             if epochs:
                 xx.append(str(f'{test}'))
                 yy.append(np.mean(epochs))
@@ -138,7 +141,7 @@ def test_learning_rate(runs=100, neuron=SimplePerceptron):
 
 def test_activation_function(runs=10):
     neuron = SimplePerceptron
-    name = neuron.name()
+    name = neuron.name_static()
 
     csv_columns = [
         'Activation function', 'RUN', 'Epochs'
@@ -148,18 +151,18 @@ def test_activation_function(runs=10):
     xx, yy, y_err = [], [], []
 
     activation_fn = np.array([
-        (2 * y - 1, ActivationFunction.BIPOLAR),
-        (y, ActivationFunction.UNIPOLAR)
+        (2 * X - 1, 2 * y - 1, ActivationFunction.BIPOLAR),
+        (X, y, ActivationFunction.UNIPOLAR)
     ])
     
     with open(f'./results/results_activation_{name}_{runs}.csv', mode='w') as file:
         writer = csv.writer(file)
         writer.writerow(csv_columns)
-        for labels, test in activation_fn:
+        for training_data, labels, test in activation_fn:
             epochs = []
             for i in range(1, runs + 1):
                 perceptron = neuron([-.2, .2], activation=test)
-                epoch, _, p = perceptron.train(X, labels)
+                epoch, _, p = perceptron.train(training_data, labels)
 
                 if np.all(p == labels):
                     writer.writerow([test.value, i, epoch])
@@ -186,30 +189,29 @@ def compare_algorithms(runs=100):
     xx, yy, y_err = [], [], []
 
     algorithms = np.array([
-        (Adaline, 2 * y - 1, None),
-        (SimplePerceptron, 2 * y - 1, ActivationFunction.BIPOLAR),
-        (SimplePerceptron, y, ActivationFunction.UNIPOLAR)
+        (Adaline, 2 * y - 1, 2 * X - 1, None),
+        (SimplePerceptron, 2 * y - 1, 2 * X - 1, ActivationFunction.BIPOLAR),
+        (SimplePerceptron, y, X, ActivationFunction.UNIPOLAR)
     ])
     
     with open(f'./results/results_algorithms_{runs}.csv', mode='w') as file:
         writer = csv.writer(file)
         writer.writerow(csv_columns)
-        for neuron, labels, activation in algorithms:
+        for neuron, labels, training_data, activation in algorithms:
             epochs = []
             for i in range(1, runs + 1):
                 if activation is None:
                     perceptron = neuron([-.2, .2])
-                    epoch, _, p = perceptron.train(X, y, learning_rate=0.03)
                 else:
                     perceptron = neuron([-.2, .2], activation=activation)
-                    epoch, _, p = perceptron.train(X, labels, learning_rate=0.03)
                 
+                epoch, _, p = perceptron.train(training_data, labels, learning_rate=0.1)
 
                 if np.all(p == labels):
                     writer.writerow([perceptron.name(), i, epoch])
                     epochs.append(epoch)
                 else:
-                    print('Wrong prediction')
+                    print(f'[{neuron.name_static()}] Wrong prediction')
             
             if epochs:
                 val = perceptron.name()
@@ -221,14 +223,15 @@ def compare_algorithms(runs=100):
         plot_bar(xx, yy, 'Algorytm', 'Liczba epok', 'Wpływ wybranego algorytmu na szybkość uczenia się')
         plt.savefig(f'./results/test_algorithms_{runs}.png')
 
-# test_weights(runs=10, neuron=SimplePerceptron)
-# test_weights(runs=100, neuron=SimplePerceptron)
-# test_weights(runs=10, neuron=Adaline)
-# test_weights(runs=100, neuron=Adaline)
+test_weights(training_X, labels_and, runs=10, neuron=SimplePerceptron)
+test_weights(training_X, labels_and, runs=100, neuron=SimplePerceptron)
+test_weights(2 * training_X - 1, 2 * labels_and - 1, runs=10, neuron=Adaline)
+test_weights(2 * training_X - 1, 2 * labels_and - 1, runs=100, neuron=Adaline)
 
-# test_learning_rate(runs=100, neuron=SimplePerceptron)
-# test_learning_rate(runs=100, neuron=Adaline)
+test_learning_rate(training_X, labels_and, runs=100, neuron=SimplePerceptron)
+test_learning_rate(2 * training_X - 1, 2 * labels_and - 1, runs=100, neuron=Adaline)
 
-# test_activation_function(runs=100)
+test_activation_function(runs=10)
+test_activation_function(runs=100)
 
 compare_algorithms(runs=100)

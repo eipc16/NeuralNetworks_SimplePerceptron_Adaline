@@ -5,7 +5,7 @@
     \justify
     \subsection{Badanie wpływu wartości wag początkowych na szybkość uczenia perceptronu prostego}
     \paragraph{}
-    Badanie ma na celu (???) wpływu wartości wag początkowych na działanie perceptronu prostego. Badania przeprowadzone zostały dla unipolarnej funkcji aktywacji oraz unipolarnego zbioru uczącego. Wykorzystano współczynnik uczenia a = 0.05.
+    Badanie ma na celu udowodnienie wpływu wartości wag początkowych na działanie perceptronu prostego. Badania przeprowadzone zostały dla unipolarnej funkcji aktywacji oraz unipolarnego zbioru uczącego. Wykorzystano współczynnik uczenia a = 0.05.
     
     \paragraph{}
     Zbadano natomiast następujące przedziały:
@@ -36,12 +36,12 @@
     \end{figure}
     
     \paragraph{}
-    W przeprowadzonych badaniach można zauważyć wzrost liczby epok wymaganych do dobrania odpowiednich wag, wraz ze wzrostem wielkości przedziału losowanych wag. Wynika to z faktu, że w przypadku dużych przedziałów wag mogą one wylosować skrajnie różne wartości. Duża różnica między początkową, a optymalną wartością wagi prowadzi, przy stałym współczynniku uczenia, do wzrostu wymaganej liczby epok, a co za tym idzie czasu wymaganego na ukończenie treningu. Wraz ze spadkiem wymaganej liczby epok, zmniejsza się także rozmiar przedziału nieufności, oznacza to, że w przypadku małego przedziału wag wyniki są bardziej zróznoważone i powtarzalne.
+    W przeprowadzonych badaniach można zauważyć wzrost liczby epok wymaganych do dobrania odpowiednich wag, wraz ze wzrostem wielkości przedziału losowanych wag. Wynika to z faktu, że w przypadku dużych przedziałów wag mogą one wylosować skrajnie różne wartości. Duża różnica między początkową, a optymalną wartością wagi prowadzi, przy stałym współczynniku uczenia do wzrostu wymaganej liczby epok, a co za tym idzie czasu wymaganego na ukończenie treningu. Wraz ze spadkiem wymaganej liczby epok, zmniejsza się także odchylenie standardowe, oznacza to, że w przypadku małego przedziału wag wyniki są bardziej zróznoważone i powtarzalne.
 
     \justify
     \subsection{Badanie wpływu współczynnika uczenia  na szybkość uczenia perceptronu prostego}
     \paragraph{}
-    Badanie ma na celu (???) wpływu wartości współczynnika uczenia na działanie perceptronu prostego. Badania przeprowadzone zostały dla unipolarnej funkcji aktywacji oraz unipolarnego zbioru uczącego. Przedział wag do badania został wybrany na podstawie poprzednich obserwacji i ma wartość [-0.2, 0.2].
+    Badanie ma na celu zweryfikowanie wpływu wartości współczynnika uczenia na działanie perceptronu prostego. Badania przeprowadzone zostały dla unipolarnej funkcji aktywacji oraz unipolarnego zbioru uczącego. Przedział wag do badania został wybrany na podstawie poprzednich obserwacji i ma wartość [-0.2, 0.2].
     
     \paragraph{}
     Badania przeprowadzono na następujących wartościach współczynnika.
@@ -76,7 +76,7 @@
     \end{figure}
     
     \paragraph{}
-    Na pierwszy rzut oka widoczny jest spadek wymaganej liczby epok wraz ze wzrostem współczynnika uczenia. Jednak obserwacja ta nie jest całkowicie poprawna, ze względu na to, że współczynnik uczenia o wartości większej niż 0.5, uniemożliwiał perceptronowi odnalezenie odpowiednich wag. Co widoczne jest na drugim wykresie przedstawiającym procent poprawnych predykcji. Dodatkowo wraz ze wzrostem współczynnika uczenia można zauważyć zmniejszanie się przedziału nieufności. Dla współczynnika o wartości \textbf{0.01} występowały duże wahania pomiędzy kolejnymi testami. Najlepsze wyniki uzyskały współczynnik o wartości \textbf{0.2}, który otrzymał bezbłędny wyniki przy najmniejszej liczbie epok, dodatkowo mały przedział nieufności wskazuje na to, że podobne wyniki otrzymane zostały w każdym z stu uruchomień algorytmu. Podsumowując, zbyt mały współczynnik uczenia wydłuża czas potrzebny na przeprowadzenie treningu dodatkowo powodując dużą różnorodność w liczbie epok między kolejnymi uruchomieniami algorytmu. Zbyt duży współczynnik natomiast całkowicie uniemożliwia przeprowadzenie udanego treningu.
+    Na pierwszy rzut oka widoczny jest spadek wymaganej liczby epok wraz ze wzrostem współczynnika uczenia. Jednak obserwacja ta nie jest całkowicie poprawna, ze względu na to, że współczynnik uczenia o wartości większej niż 0.5, uniemożliwiał perceptronowi odnalezenie odpowiednich wag. Co widoczne jest na drugim wykresie przedstawiającym procent poprawnych predykcji. Dodatkowo wraz ze wzrostem współczynnika uczenia można zauważyć zmniejszanie się odchylenia standardowego. Dla współczynnika o wartości \textbf{0.01} występowały duże wahania pomiędzy kolejnymi testami. Najlepsze wyniki uzyskały współczynnik o wartości \textbf{0.2}, który otrzymał bezbłędny wynik przy najmniejszej średniej liczbie epok, dodatkowo małe odchylenie standardowe  wskazuje na to, że podobne wyniki otrzymane zostały w każdym z stu uruchomień algorytmu. Podsumowując, zbyt mały współczynnik uczenia wydłuża czas potrzebny na przeprowadzenie treningu dodatkowo powodując dużą różnorodność w liczbie epok między kolejnymi uruchomieniami algorytmu. Zbyt duży współczynnik natomiast całkowicie uniemożliwia przeprowadzenie udanego treningu.
     
     \subsection{Badanie wpływu funkcji aktywacji na szybkość uczenia perceptronu prostego}
     Decyzję o aktywacji neuronu można przeprowadzić na podstawie wielu funkcji. Badanie skupiło się na zaobserwowaniu zmian w czasie trwania treningu przy różnych funkcjach aktywacji. W przeprowadzonych badaniach wykorzystano współczynnik uczenia równy 0.1 oraz początkowy przedział wag wynoszący [-0.2, 0.2].

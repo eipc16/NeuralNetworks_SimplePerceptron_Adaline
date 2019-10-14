@@ -1,301 +1,301 @@
 Algorithm,RUN,Epochs
-Adaline,1,22
-Adaline,2,29
-Adaline,3,30
-Adaline,4,27
-Adaline,5,24
-Adaline,6,22
-Adaline,7,23
-Adaline,8,26
-Adaline,9,24
-Adaline,10,29
-Adaline,11,16
-Adaline,12,23
-Adaline,13,15
-Adaline,14,31
-Adaline,15,24
-Adaline,16,28
-Adaline,17,19
-Adaline,18,23
-Adaline,19,18
-Adaline,20,26
-Adaline,21,16
-Adaline,22,23
-Adaline,23,27
-Adaline,24,22
-Adaline,25,28
-Adaline,26,26
-Adaline,27,28
-Adaline,28,27
-Adaline,29,26
-Adaline,30,21
-Adaline,31,28
-Adaline,32,22
-Adaline,33,27
-Adaline,34,22
-Adaline,35,18
-Adaline,36,24
-Adaline,37,24
-Adaline,38,27
-Adaline,39,21
-Adaline,40,19
-Adaline,41,18
-Adaline,42,23
-Adaline,43,22
-Adaline,44,20
-Adaline,45,21
-Adaline,46,24
-Adaline,47,23
-Adaline,48,26
-Adaline,49,19
-Adaline,50,27
-Adaline,51,25
-Adaline,52,21
-Adaline,53,18
-Adaline,54,25
-Adaline,55,17
-Adaline,56,29
-Adaline,57,17
-Adaline,58,25
-Adaline,59,17
-Adaline,60,25
-Adaline,61,31
-Adaline,62,29
-Adaline,63,20
-Adaline,64,20
-Adaline,65,28
-Adaline,66,18
-Adaline,67,27
-Adaline,68,23
-Adaline,69,22
-Adaline,70,17
-Adaline,71,26
-Adaline,72,30
-Adaline,73,30
-Adaline,74,24
-Adaline,75,27
-Adaline,76,24
-Adaline,77,25
-Adaline,78,24
-Adaline,79,25
-Adaline,80,15
-Adaline,81,26
-Adaline,82,19
-Adaline,83,30
-Adaline,84,27
-Adaline,85,22
-Adaline,86,21
-Adaline,87,24
-Adaline,88,21
-Adaline,89,24
-Adaline,90,28
-Adaline,91,25
-Adaline,92,25
-Adaline,93,23
-Adaline,94,25
-Adaline,95,19
-Adaline,96,29
-Adaline,97,18
-Adaline,98,15
-Adaline,99,30
-Adaline,100,18
-Prosty perceptron - bipolar,1,4
-Prosty perceptron - bipolar,2,4
-Prosty perceptron - bipolar,3,6
-Prosty perceptron - bipolar,4,5
+Adaline,1,37
+Adaline,2,37
+Adaline,3,37
+Adaline,4,37
+Adaline,5,37
+Adaline,6,37
+Adaline,7,37
+Adaline,8,37
+Adaline,9,37
+Adaline,10,37
+Adaline,11,37
+Adaline,12,37
+Adaline,13,37
+Adaline,14,37
+Adaline,15,37
+Adaline,16,37
+Adaline,17,37
+Adaline,18,37
+Adaline,19,37
+Adaline,20,37
+Adaline,21,37
+Adaline,22,37
+Adaline,23,37
+Adaline,24,37
+Adaline,25,37
+Adaline,26,37
+Adaline,27,37
+Adaline,28,37
+Adaline,29,37
+Adaline,30,37
+Adaline,31,37
+Adaline,32,37
+Adaline,33,37
+Adaline,34,37
+Adaline,35,37
+Adaline,36,37
+Adaline,37,37
+Adaline,38,37
+Adaline,39,37
+Adaline,40,37
+Adaline,41,37
+Adaline,42,37
+Adaline,43,37
+Adaline,44,37
+Adaline,45,37
+Adaline,46,37
+Adaline,47,37
+Adaline,48,37
+Adaline,49,37
+Adaline,50,37
+Adaline,51,37
+Adaline,52,37
+Adaline,53,37
+Adaline,54,37
+Adaline,55,37
+Adaline,56,37
+Adaline,57,37
+Adaline,58,37
+Adaline,59,37
+Adaline,60,37
+Adaline,61,37
+Adaline,62,37
+Adaline,63,37
+Adaline,64,37
+Adaline,65,37
+Adaline,66,37
+Adaline,67,37
+Adaline,68,37
+Adaline,69,37
+Adaline,70,37
+Adaline,71,37
+Adaline,72,37
+Adaline,73,37
+Adaline,74,37
+Adaline,75,37
+Adaline,76,37
+Adaline,77,37
+Adaline,78,37
+Adaline,79,37
+Adaline,80,37
+Adaline,81,37
+Adaline,82,37
+Adaline,83,37
+Adaline,84,37
+Adaline,85,37
+Adaline,86,37
+Adaline,87,37
+Adaline,88,37
+Adaline,89,37
+Adaline,90,37
+Adaline,91,37
+Adaline,92,37
+Adaline,93,37
+Adaline,94,37
+Adaline,95,37
+Adaline,96,37
+Adaline,97,37
+Adaline,98,37
+Adaline,99,37
+Adaline,100,37
+Prosty perceptron - bipolar,1,2
+Prosty perceptron - bipolar,2,2
+Prosty perceptron - bipolar,3,3
+Prosty perceptron - bipolar,4,3
 Prosty perceptron - bipolar,5,3
-Prosty perceptron - bipolar,6,4
-Prosty perceptron - bipolar,7,8
-Prosty perceptron - bipolar,8,7
-Prosty perceptron - bipolar,9,6
-Prosty perceptron - bipolar,10,6
-Prosty perceptron - bipolar,11,7
-Prosty perceptron - bipolar,12,6
-Prosty perceptron - bipolar,13,5
-Prosty perceptron - bipolar,14,4
-Prosty perceptron - bipolar,15,3
-Prosty perceptron - bipolar,16,6
-Prosty perceptron - bipolar,17,5
-Prosty perceptron - bipolar,18,5
-Prosty perceptron - bipolar,19,7
-Prosty perceptron - bipolar,20,5
-Prosty perceptron - bipolar,21,5
-Prosty perceptron - bipolar,22,6
-Prosty perceptron - bipolar,23,4
-Prosty perceptron - bipolar,24,7
-Prosty perceptron - bipolar,25,4
-Prosty perceptron - bipolar,26,6
-Prosty perceptron - bipolar,27,4
-Prosty perceptron - bipolar,28,4
-Prosty perceptron - bipolar,29,5
-Prosty perceptron - bipolar,30,6
-Prosty perceptron - bipolar,31,4
-Prosty perceptron - bipolar,32,4
-Prosty perceptron - bipolar,33,5
-Prosty perceptron - bipolar,34,5
-Prosty perceptron - bipolar,35,6
-Prosty perceptron - bipolar,36,7
-Prosty perceptron - bipolar,37,5
+Prosty perceptron - bipolar,6,3
+Prosty perceptron - bipolar,7,3
+Prosty perceptron - bipolar,8,3
+Prosty perceptron - bipolar,9,2
+Prosty perceptron - bipolar,10,2
+Prosty perceptron - bipolar,11,3
+Prosty perceptron - bipolar,12,3
+Prosty perceptron - bipolar,13,3
+Prosty perceptron - bipolar,14,3
+Prosty perceptron - bipolar,15,2
+Prosty perceptron - bipolar,16,3
+Prosty perceptron - bipolar,17,3
+Prosty perceptron - bipolar,18,3
+Prosty perceptron - bipolar,19,3
+Prosty perceptron - bipolar,20,3
+Prosty perceptron - bipolar,21,3
+Prosty perceptron - bipolar,22,2
+Prosty perceptron - bipolar,23,3
+Prosty perceptron - bipolar,24,3
+Prosty perceptron - bipolar,25,3
+Prosty perceptron - bipolar,26,3
+Prosty perceptron - bipolar,27,3
+Prosty perceptron - bipolar,28,2
+Prosty perceptron - bipolar,29,3
+Prosty perceptron - bipolar,30,3
+Prosty perceptron - bipolar,31,3
+Prosty perceptron - bipolar,32,3
+Prosty perceptron - bipolar,33,3
+Prosty perceptron - bipolar,34,2
+Prosty perceptron - bipolar,35,3
+Prosty perceptron - bipolar,36,3
+Prosty perceptron - bipolar,37,4
 Prosty perceptron - bipolar,38,3
-Prosty perceptron - bipolar,39,7
-Prosty perceptron - bipolar,40,5
-Prosty perceptron - bipolar,41,3
-Prosty perceptron - bipolar,42,6
-Prosty perceptron - bipolar,43,5
-Prosty perceptron - bipolar,44,5
-Prosty perceptron - bipolar,45,5
-Prosty perceptron - bipolar,46,5
-Prosty perceptron - bipolar,47,6
-Prosty perceptron - bipolar,48,8
-Prosty perceptron - bipolar,49,7
-Prosty perceptron - bipolar,50,5
+Prosty perceptron - bipolar,39,3
+Prosty perceptron - bipolar,40,3
+Prosty perceptron - bipolar,41,2
+Prosty perceptron - bipolar,42,2
+Prosty perceptron - bipolar,43,3
+Prosty perceptron - bipolar,44,3
+Prosty perceptron - bipolar,45,2
+Prosty perceptron - bipolar,46,3
+Prosty perceptron - bipolar,47,3
+Prosty perceptron - bipolar,48,3
+Prosty perceptron - bipolar,49,3
+Prosty perceptron - bipolar,50,3
 Prosty perceptron - bipolar,51,3
-Prosty perceptron - bipolar,52,5
-Prosty perceptron - bipolar,53,7
-Prosty perceptron - bipolar,54,7
-Prosty perceptron - bipolar,55,6
+Prosty perceptron - bipolar,52,3
+Prosty perceptron - bipolar,53,4
+Prosty perceptron - bipolar,54,3
+Prosty perceptron - bipolar,55,3
 Prosty perceptron - bipolar,56,3
-Prosty perceptron - bipolar,57,8
-Prosty perceptron - bipolar,58,7
-Prosty perceptron - bipolar,59,6
-Prosty perceptron - bipolar,60,5
-Prosty perceptron - bipolar,61,6
-Prosty perceptron - bipolar,62,8
-Prosty perceptron - bipolar,63,6
-Prosty perceptron - bipolar,64,6
-Prosty perceptron - bipolar,65,5
-Prosty perceptron - bipolar,66,6
-Prosty perceptron - bipolar,67,7
-Prosty perceptron - bipolar,68,6
-Prosty perceptron - bipolar,69,5
-Prosty perceptron - bipolar,70,4
+Prosty perceptron - bipolar,57,3
+Prosty perceptron - bipolar,58,3
+Prosty perceptron - bipolar,59,3
+Prosty perceptron - bipolar,60,3
+Prosty perceptron - bipolar,61,2
+Prosty perceptron - bipolar,62,3
+Prosty perceptron - bipolar,63,3
+Prosty perceptron - bipolar,64,3
+Prosty perceptron - bipolar,65,3
+Prosty perceptron - bipolar,66,3
+Prosty perceptron - bipolar,67,2
+Prosty perceptron - bipolar,68,3
+Prosty perceptron - bipolar,69,2
+Prosty perceptron - bipolar,70,3
 Prosty perceptron - bipolar,71,3
 Prosty perceptron - bipolar,72,3
-Prosty perceptron - bipolar,73,6
-Prosty perceptron - bipolar,74,5
-Prosty perceptron - bipolar,75,6
-Prosty perceptron - bipolar,76,4
-Prosty perceptron - bipolar,77,7
-Prosty perceptron - bipolar,78,6
-Prosty perceptron - bipolar,79,5
+Prosty perceptron - bipolar,73,2
+Prosty perceptron - bipolar,74,3
+Prosty perceptron - bipolar,75,4
+Prosty perceptron - bipolar,76,3
+Prosty perceptron - bipolar,77,4
+Prosty perceptron - bipolar,78,2
+Prosty perceptron - bipolar,79,3
 Prosty perceptron - bipolar,80,3
-Prosty perceptron - bipolar,81,8
-Prosty perceptron - bipolar,82,4
-Prosty perceptron - bipolar,83,4
-Prosty perceptron - bipolar,84,4
-Prosty perceptron - bipolar,85,7
-Prosty perceptron - bipolar,86,8
-Prosty perceptron - bipolar,87,6
-Prosty perceptron - bipolar,88,8
-Prosty perceptron - bipolar,89,4
-Prosty perceptron - bipolar,90,6
-Prosty perceptron - bipolar,91,6
-Prosty perceptron - bipolar,92,5
-Prosty perceptron - bipolar,93,7
-Prosty perceptron - bipolar,94,5
-Prosty perceptron - bipolar,95,7
-Prosty perceptron - bipolar,96,6
-Prosty perceptron - bipolar,97,8
-Prosty perceptron - bipolar,98,4
-Prosty perceptron - bipolar,99,5
-Prosty perceptron - bipolar,100,5
+Prosty perceptron - bipolar,81,3
+Prosty perceptron - bipolar,82,3
+Prosty perceptron - bipolar,83,3
+Prosty perceptron - bipolar,84,3
+Prosty perceptron - bipolar,85,2
+Prosty perceptron - bipolar,86,3
+Prosty perceptron - bipolar,87,3
+Prosty perceptron - bipolar,88,3
+Prosty perceptron - bipolar,89,3
+Prosty perceptron - bipolar,90,3
+Prosty perceptron - bipolar,91,2
+Prosty perceptron - bipolar,92,2
+Prosty perceptron - bipolar,93,3
+Prosty perceptron - bipolar,94,2
+Prosty perceptron - bipolar,95,3
+Prosty perceptron - bipolar,96,3
+Prosty perceptron - bipolar,97,3
+Prosty perceptron - bipolar,98,2
+Prosty perceptron - bipolar,99,3
+Prosty perceptron - bipolar,100,3
 Prosty perceptron - unipolar,1,5
-Prosty perceptron - unipolar,2,12
-Prosty perceptron - unipolar,3,7
-Prosty perceptron - unipolar,4,13
-Prosty perceptron - unipolar,5,13
-Prosty perceptron - unipolar,6,12
-Prosty perceptron - unipolar,7,7
-Prosty perceptron - unipolar,8,9
-Prosty perceptron - unipolar,9,8
-Prosty perceptron - unipolar,10,7
-Prosty perceptron - unipolar,11,15
-Prosty perceptron - unipolar,12,16
-Prosty perceptron - unipolar,13,13
-Prosty perceptron - unipolar,14,11
-Prosty perceptron - unipolar,15,9
-Prosty perceptron - unipolar,16,10
-Prosty perceptron - unipolar,17,10
-Prosty perceptron - unipolar,18,8
-Prosty perceptron - unipolar,19,10
-Prosty perceptron - unipolar,20,11
-Prosty perceptron - unipolar,21,12
-Prosty perceptron - unipolar,22,13
-Prosty perceptron - unipolar,23,4
-Prosty perceptron - unipolar,24,5
-Prosty perceptron - unipolar,25,14
-Prosty perceptron - unipolar,26,11
+Prosty perceptron - unipolar,2,3
+Prosty perceptron - unipolar,3,5
+Prosty perceptron - unipolar,4,5
+Prosty perceptron - unipolar,5,4
+Prosty perceptron - unipolar,6,5
+Prosty perceptron - unipolar,7,4
+Prosty perceptron - unipolar,8,5
+Prosty perceptron - unipolar,9,3
+Prosty perceptron - unipolar,10,5
+Prosty perceptron - unipolar,11,5
+Prosty perceptron - unipolar,12,4
+Prosty perceptron - unipolar,13,4
+Prosty perceptron - unipolar,14,4
+Prosty perceptron - unipolar,15,5
+Prosty perceptron - unipolar,16,4
+Prosty perceptron - unipolar,17,3
+Prosty perceptron - unipolar,18,5
+Prosty perceptron - unipolar,19,3
+Prosty perceptron - unipolar,20,5
+Prosty perceptron - unipolar,21,4
+Prosty perceptron - unipolar,22,4
+Prosty perceptron - unipolar,23,5
+Prosty perceptron - unipolar,24,4
+Prosty perceptron - unipolar,25,4
+Prosty perceptron - unipolar,26,4
 Prosty perceptron - unipolar,27,4
-Prosty perceptron - unipolar,28,7
-Prosty perceptron - unipolar,29,8
-Prosty perceptron - unipolar,30,14
-Prosty perceptron - unipolar,31,10
-Prosty perceptron - unipolar,32,14
-Prosty perceptron - unipolar,33,9
-Prosty perceptron - unipolar,34,8
-Prosty perceptron - unipolar,35,11
-Prosty perceptron - unipolar,36,8
-Prosty perceptron - unipolar,37,10
-Prosty perceptron - unipolar,38,10
-Prosty perceptron - unipolar,39,6
-Prosty perceptron - unipolar,40,13
-Prosty perceptron - unipolar,41,9
-Prosty perceptron - unipolar,42,8
-Prosty perceptron - unipolar,43,9
-Prosty perceptron - unipolar,44,15
-Prosty perceptron - unipolar,45,11
-Prosty perceptron - unipolar,46,7
-Prosty perceptron - unipolar,47,12
-Prosty perceptron - unipolar,48,8
-Prosty perceptron - unipolar,49,5
-Prosty perceptron - unipolar,50,9
-Prosty perceptron - unipolar,51,14
-Prosty perceptron - unipolar,52,13
-Prosty perceptron - unipolar,53,10
-Prosty perceptron - unipolar,54,10
-Prosty perceptron - unipolar,55,10
-Prosty perceptron - unipolar,56,10
-Prosty perceptron - unipolar,57,15
-Prosty perceptron - unipolar,58,9
-Prosty perceptron - unipolar,59,12
-Prosty perceptron - unipolar,60,6
-Prosty perceptron - unipolar,61,7
-Prosty perceptron - unipolar,62,4
-Prosty perceptron - unipolar,63,12
-Prosty perceptron - unipolar,64,15
-Prosty perceptron - unipolar,65,11
-Prosty perceptron - unipolar,66,9
-Prosty perceptron - unipolar,67,5
-Prosty perceptron - unipolar,68,7
-Prosty perceptron - unipolar,69,9
-Prosty perceptron - unipolar,70,14
-Prosty perceptron - unipolar,71,8
-Prosty perceptron - unipolar,72,10
-Prosty perceptron - unipolar,73,16
-Prosty perceptron - unipolar,74,9
-Prosty perceptron - unipolar,75,8
-Prosty perceptron - unipolar,76,11
-Prosty perceptron - unipolar,77,8
-Prosty perceptron - unipolar,78,14
-Prosty perceptron - unipolar,79,9
-Prosty perceptron - unipolar,80,10
-Prosty perceptron - unipolar,81,13
-Prosty perceptron - unipolar,82,11
-Prosty perceptron - unipolar,83,7
-Prosty perceptron - unipolar,84,7
-Prosty perceptron - unipolar,85,12
-Prosty perceptron - unipolar,86,8
-Prosty perceptron - unipolar,87,7
-Prosty perceptron - unipolar,88,8
-Prosty perceptron - unipolar,89,11
-Prosty perceptron - unipolar,90,10
-Prosty perceptron - unipolar,91,9
-Prosty perceptron - unipolar,92,10
-Prosty perceptron - unipolar,93,8
-Prosty perceptron - unipolar,94,9
-Prosty perceptron - unipolar,95,10
-Prosty perceptron - unipolar,96,10
-Prosty perceptron - unipolar,97,10
-Prosty perceptron - unipolar,98,14
-Prosty perceptron - unipolar,99,13
-Prosty perceptron - unipolar,100,16
+Prosty perceptron - unipolar,28,3
+Prosty perceptron - unipolar,29,4
+Prosty perceptron - unipolar,30,5
+Prosty perceptron - unipolar,31,3
+Prosty perceptron - unipolar,32,4
+Prosty perceptron - unipolar,33,4
+Prosty perceptron - unipolar,34,4
+Prosty perceptron - unipolar,35,4
+Prosty perceptron - unipolar,36,2
+Prosty perceptron - unipolar,37,3
+Prosty perceptron - unipolar,38,4
+Prosty perceptron - unipolar,39,4
+Prosty perceptron - unipolar,40,3
+Prosty perceptron - unipolar,41,3
+Prosty perceptron - unipolar,42,5
+Prosty perceptron - unipolar,43,4
+Prosty perceptron - unipolar,44,4
+Prosty perceptron - unipolar,45,3
+Prosty perceptron - unipolar,46,5
+Prosty perceptron - unipolar,47,4
+Prosty perceptron - unipolar,48,4
+Prosty perceptron - unipolar,49,6
+Prosty perceptron - unipolar,50,2
+Prosty perceptron - unipolar,51,3
+Prosty perceptron - unipolar,52,4
+Prosty perceptron - unipolar,53,4
+Prosty perceptron - unipolar,54,3
+Prosty perceptron - unipolar,55,6
+Prosty perceptron - unipolar,56,5
+Prosty perceptron - unipolar,57,5
+Prosty perceptron - unipolar,58,3
+Prosty perceptron - unipolar,59,5
+Prosty perceptron - unipolar,60,5
+Prosty perceptron - unipolar,61,4
+Prosty perceptron - unipolar,62,5
+Prosty perceptron - unipolar,63,3
+Prosty perceptron - unipolar,64,4
+Prosty perceptron - unipolar,65,5
+Prosty perceptron - unipolar,66,3
+Prosty perceptron - unipolar,67,6
+Prosty perceptron - unipolar,68,4
+Prosty perceptron - unipolar,69,3
+Prosty perceptron - unipolar,70,5
+Prosty perceptron - unipolar,71,5
+Prosty perceptron - unipolar,72,5
+Prosty perceptron - unipolar,73,4
+Prosty perceptron - unipolar,74,3
+Prosty perceptron - unipolar,75,4
+Prosty perceptron - unipolar,76,4
+Prosty perceptron - unipolar,77,5
+Prosty perceptron - unipolar,78,5
+Prosty perceptron - unipolar,79,4
+Prosty perceptron - unipolar,80,3
+Prosty perceptron - unipolar,81,5
+Prosty perceptron - unipolar,82,4
+Prosty perceptron - unipolar,83,5
+Prosty perceptron - unipolar,84,3
+Prosty perceptron - unipolar,85,3
+Prosty perceptron - unipolar,86,2
+Prosty perceptron - unipolar,87,4
+Prosty perceptron - unipolar,88,4
+Prosty perceptron - unipolar,89,6
+Prosty perceptron - unipolar,90,4
+Prosty perceptron - unipolar,91,5
+Prosty perceptron - unipolar,92,4
+Prosty perceptron - unipolar,93,3
+Prosty perceptron - unipolar,94,3
+Prosty perceptron - unipolar,95,4
+Prosty perceptron - unipolar,96,4
+Prosty perceptron - unipolar,97,5
+Prosty perceptron - unipolar,98,3
+Prosty perceptron - unipolar,99,4
+Prosty perceptron - unipolar,100,3

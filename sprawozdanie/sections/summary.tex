@@ -2,5 +2,8 @@
 
 \begin{document}
     \paragraph{}
-    X
+    Zbadano wpływ różnych parametrów na proces uczenia perceptronu prostego jak i neuronu Adaline, we wszystkich przypadkach potwierdzono wpływ parametrów na trening neuronów. W zależności od współczynnika uczenia, przedziału wag początkowych czy funkcji aktywacji, proces trenowania wydłużał się lub skracał. Badania wykazały także, że znalezienie optymalnych hiperparametrów może znacznie skrócić proces trenowania neuronu. 
+    
+    \paragraph{}
+    Badania jasno wskazują na to, że Adaline uczy model bardziej dokładnie. Spowodowane jest to tym, że w przypadku neuronu Adaline, wagi aktualizowane są o rzeczywistą wartość błędu, a nie tak jak w przypadku perceptronu prostego wartość otrzymaną po aktywacji. Także, w przeciwieństwie do Adaline, perceptron prosty nie aktualizuje wag w sytuacji, kiedy model sklasyfikował zadaną wartość poprawnie. Dodatkowo Adaline, niezależnie od wylosowanych wag początkowych, zawsze próbuje dojść do tych samych wag na wejściach do neuronu. Oznacza to, że w jego przypadku dobranie odpowiedniego przedziału wag początkowych nie jest tak bardzo ważne. Bez wątpienia jednak, oba z badanych neuronów są użyteczne tylko w przypadku problemów separowalnych liniowo i jest to ich największą wagą. W przypadku problemów nieseparowalnych liniowo, takich jak przykładowo bramka XOR, wymagane jest użycznie bardziej zaawansowanego modelu, np. MultiLayer Perceptron (MLP).
 \end{document}

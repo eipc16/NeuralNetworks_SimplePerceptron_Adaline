@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  13 OCT 2019 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.30)  14 OCT 2019 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,8 +972,8 @@ File: ./sections/results/test_weights_SimplePerceptron_100.png Graphic file (typ
 <use ./sections/results/test_weights_SimplePerceptron_100.png>
 Package pdftex.def Info: ./sections/results/test_weights_SimplePerceptron_100.png  used on input line 34.
 (pdftex.def)             Requested size: 390.261pt x 216.81168pt.
- [3 <./sections/results/test_weights_SimplePerceptron_10.png>] [4 <./sections/results/test_weights_SimplePerceptron_100.png>]
-<./sections/results/test_LR_SimplePerceptron_100_epochs.png, id=30, 650.43pt x 361.35pt>
+ [3 <./sections/results/test_weights_SimplePerceptron_10.png>]
+<./sections/results/test_LR_SimplePerceptron_100_epochs.png, id=26, 650.43pt x 361.35pt>
 File: ./sections/results/test_LR_SimplePerceptron_100_epochs.png Graphic file (type png)
 <use ./sections/results/test_LR_SimplePerceptron_100_epochs.png>
 Package pdftex.def Info: ./sections/results/test_LR_SimplePerceptron_100_epochs.png  used on input line 64.
@@ -983,7 +983,7 @@ Overfull \hbox (20.91396pt too wide) in paragraph at lines 64--65
  [][] 
  []
 
-<./sections/results/test_LR_SimplePerceptron_100_correctness.png, id=31, 650.43pt x 361.35pt>
+<./sections/results/test_LR_SimplePerceptron_100_correctness.png, id=27, 650.43pt x 361.35pt>
 File: ./sections/results/test_LR_SimplePerceptron_100_correctness.png Graphic file (type png)
 <use ./sections/results/test_LR_SimplePerceptron_100_correctness.png>
 Package pdftex.def Info: ./sections/results/test_LR_SimplePerceptron_100_correctness.png  used on input line 70.
@@ -993,12 +993,13 @@ Overfull \hbox (20.91396pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
+[4 <./sections/results/test_weights_SimplePerceptron_100.png>]
 <./sections/results/test_activation_SimplePerceptron_10.png, id=32, 650.43pt x 361.35pt>
 File: ./sections/results/test_activation_SimplePerceptron_10.png Graphic file (type png)
 <use ./sections/results/test_activation_SimplePerceptron_10.png>
 Package pdftex.def Info: ./sections/results/test_activation_SimplePerceptron_10.png  used on input line 95.
 (pdftex.def)             Requested size: 390.261pt x 216.81168pt.
-[5 <./sections/results/test_LR_SimplePerceptron_100_epochs.png> <./sections/results/test_LR_SimplePerceptron_100_correctness.png>]
+ [5 <./sections/results/test_LR_SimplePerceptron_100_epochs.png> <./sections/results/test_LR_SimplePerceptron_100_correctness.png>]
 <./sections/results/test_activation_SimplePerceptron_100.png, id=39, 650.43pt x 361.35pt>
 File: ./sections/results/test_activation_SimplePerceptron_100.png Graphic file (type png)
 <use ./sections/results/test_activation_SimplePerceptron_100.png>
@@ -1043,7 +1044,7 @@ File: ./sections/results/test_algorithms_100.png Graphic file (type png)
 <use ./sections/results/test_algorithms_100.png>
 Package pdftex.def Info: ./sections/results/test_algorithms_100.png  used on input line 10.
 (pdftex.def)             Requested size: 390.261pt x 216.81168pt.
-) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex) [10 <./sections/results/test_algorithms_100.png>] [11] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
+) (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/sections/summary.tex [10 <./sections/results/test_algorithms_100.png>]) [11] (/home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1055,9 +1056,9 @@ Here is how much of TeX's memory you used:
  41322 multiletter control sequences out of 15000+600000
  542857 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,136p,1328b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,8n,136p,1339b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr9.pfb>
-Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (12 pages, 274231 bytes).
+Output written on /home/przemek/Data/Programowanie/PWr/Semestr_VII/Sieci_Neuronowe/perceptors-adaline/sprawozdanie/main.pdf (12 pages, 284620 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

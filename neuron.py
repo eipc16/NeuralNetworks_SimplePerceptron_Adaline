@@ -5,6 +5,8 @@ class ActivationFunction(Enum):
     BIPOLAR = 'bipolar'
     UNIPOLAR = 'unipolar'
 
+DEBUG = False
+
 np.random.seed(1)
 
 class Neuron:
@@ -56,6 +58,9 @@ class SimplePerceptron(Neuron):
             if not self._weights_change(previous_weights):
                 break
 
+        if DEBUG:
+            print(self._weights)
+
         return iteration, loss, y
 
     def _weights_change(self, previous_weights):
@@ -74,8 +79,8 @@ class SimplePerceptron(Neuron):
         return self._activation(prediction)
         
     @staticmethod
-    def name():
-        return 'Prosty perceptron'
+    def name_static():
+        return 'SimplePerceptron'
 
     def name(self):
         return f'Prosty perceptron - {self._activation_type.value}'
@@ -87,19 +92,24 @@ class Adaline(Neuron):
         self._bias = np.zeros((1, 1))
 
     def train(self, training_data, labels, 
-              iterations=1000, error_threshold=0.08,
-              learning_rate=0.05):
+              iterations=1000, error_threshold=0.25,
+              learning_rate=0.1):
         super()._init(training_data)
         for iteration in range(1, iterations + 1):
-            y = self._feed(training_data)
-            error = self._error(labels, y)
+            y = self._feed(training_data) # input_vector @ self._weights + self._bias
+            error = self._error(labels, y) # label - error
             loss = np.mean(error ** 2)
-            
+            #print(f'-------------\nI: {iteration}, \nWeights: {self._weights.T}, \nBias: {self._bias}, \nLoss: {loss}')
             self._weights += learning_rate * 2 * (training_data.T @ error)
             self._bias += learning_rate * np.sum(error, axis=0)
 
             if loss <= error_threshold:
                 break
+
+        if DEBUG:
+            print(self._weights)
+            print(self._bias)
+            print('--------')
 
         return iteration, loss, self._quantization(y)
 
@@ -114,7 +124,7 @@ class Adaline(Neuron):
         return super()._feed(input_vector) + self._bias
 
     @staticmethod
-    def name():
+    def name_static():
         return 'Adaline'
 
     def name(self):
